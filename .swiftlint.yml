@@ -1,0 +1,104 @@
+disabled_rules:
+- trailing_whitespace # Lines should not have trailing whitespace.
+- force_unwrapping # Force unwrapping should be avoided.
+- vertical_whitespace # Limit vertical whitespace to a single empty line.
+
+opt_in_rules:
+- closure_end_indentation # Closure end should have the same indentation as the line that started it.
+- closure_spacing # Closure expressions should have a single space inside each brace.
+- operator_usage_whitespace # Operators should be surrounded by a single whitespace when they are being used.
+- explicit_init # Explicitly calling .init() should be avoided.
+- first_where # Prefer using .first(where:) over .filter { }.first in collections.
+- redundant_nil_coalescing # nil coalescing operator is only evaluated if the lhs is nil, coalescing operator with nil as rhs is redundant
+- single_test_class # Test files should contain a single QuickSpec or XCTestCase class.
+- sorted_imports # Imports should be sorted.
+- switch_case_on_newline # Cases inside a switch should always be on a newline
+- overridden_super_call
+- unused_optional_binding
+- colon
+
+excluded:
+- vendor
+- Pods
+
+
+comma: error
+
+identifier_name:
+  min_length: 
+    warning: 2 
+  excluded: 
+    - id
+    - URL
+    - GlobalAPIKey
+reporter: "xcode"
+
+type_body_length:
+  - 300 # warning
+  - 400 # error
+
+function_body_length:
+  - 200 # warning
+  - 300 # error
+
+file_length:
+  warning: 500
+  error: 1200
+
+line_length:
+ - 180
+ - 300
+ignores_urls: true
+ignores_comments: true
+
+function_body_length:
+ - 40
+ - 140
+
+function_parameter_count:
+ - 10
+
+large_tuple:
+ - 5
+ - 5
+
+cyclomatic_complexity:
+warning: 10
+error: 40
+
+type_name:
+max_length:
+warning: 60
+error: 100
+
+cyclomatic_complexity:
+  warning: 15
+  error: 20
+
+force_cast: warning
+
+control_statement: error
+
+implicit_getter: error
+
+vertical_parameter_alignment: error
+
+return_arrow_whitespace: error
+
+unneeded_break_in_switch: error
+
+unneeded_parentheses_in_closure_argument: error
+
+syntactic_sugar: error
+
+vertical_parameter_alignment_on_call: error
+
+empty_count: error
+
+redundant_optional_initialization: error
+
+operator_whitespace: error
+
+multiline_parameters: error
+
+implicit_return: error

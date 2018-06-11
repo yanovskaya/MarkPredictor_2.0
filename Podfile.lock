@@ -1,0 +1,24 @@
+PODS:
+  - fluid-slider (0.0.6):
+    - pop
+  - pop (1.0.10)
+  - SwiftLint (0.25.1)
+
+DEPENDENCIES:
+  - fluid-slider
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - fluid-slider
+    - pop
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  fluid-slider: 3aeb48bd7f875dc0431963fde12674e69c7c0ed2
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
+
+PODFILE CHECKSUM: 4831423da16c89547eddaa3333797eae5873208b
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42D95692097A29600772D70 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D95682097A29600772D70 /* CustomSlider.swift */; };
+		C42D956E2097AABE00772D70 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D956D2097AABE00772D70 /* Colors.swift */; };
+		C42D957A2097D3B100772D70 /* MarkModelWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D95792097D3B100772D70 /* MarkModelWrapper.swift */; };
+		C42D9593209A278E00772D70 /* MarkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D9592209A278E00772D70 /* MarkModelTests.swift */; };
+		C42D959F209A5E9400772D70 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D959E209A5E9400772D70 /* UserDefaultKeys.swift */; };
+		C4441E92209E412400573861 /* MarkPredictorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4441E91209E412400573861 /* MarkPredictorUITests.swift */; };
+		C4490AF720CEA7CE00C32E84 /* MarkModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C4490AF620CEA7CE00C32E84 /* MarkModel.mlmodel */; };
+		C44ED8092093D6B900B8A642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44ED8082093D6B900B8A642 /* AppDelegate.swift */; };
+		C44ED80B2093D6B900B8A642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44ED80A2093D6B900B8A642 /* ViewController.swift */; };
+		C44ED80E2093D6B900B8A642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44ED80C2093D6B900B8A642 /* Main.storyboard */; };
+		C44ED8102093D6BD00B8A642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44ED80F2093D6BD00B8A642 /* Assets.xcassets */; };
+		C44ED8132093D6BD00B8A642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44ED8112093D6BD00B8A642 /* LaunchScreen.storyboard */; };
+		CFAD45E4CCC3BA74E56592C8 /* Pods_MarkPredictor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D405EE30C69728B4B8D12A /* Pods_MarkPredictor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42D9595209A278E00772D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44ED7FD2093D6B900B8A642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44ED8042093D6B900B8A642;
+			remoteInfo = MarkPredictor;
+		};
+		C4441E94209E412400573861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44ED7FD2093D6B900B8A642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44ED8042093D6B900B8A642;
+			remoteInfo = MarkPredictor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D405EE30C69728B4B8D12A /* Pods_MarkPredictor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkPredictor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23896EDF489F2373B7D3B3EF /* Pods-MarkPredictor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkPredictor.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarkPredictor/Pods-MarkPredictor.release.xcconfig"; sourceTree = "<group>"; };
+		9A86B541CC11B4CBBD666EC8 /* Pods-MarkPredictor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkPredictor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarkPredictor/Pods-MarkPredictor.debug.xcconfig"; sourceTree = "<group>"; };
+		C42D95682097A29600772D70 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		C42D956D2097AABE00772D70 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C42D95792097D3B100772D70 /* MarkModelWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkModelWrapper.swift; sourceTree = "<group>"; };
+		C42D9590209A278D00772D70 /* MarkPredictorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkPredictorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42D9592209A278E00772D70 /* MarkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkModelTests.swift; sourceTree = "<group>"; };
+		C42D9594209A278E00772D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42D959E209A5E9400772D70 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		C4441E8F209E412400573861 /* MarkPredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkPredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4441E91209E412400573861 /* MarkPredictorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPredictorUITests.swift; sourceTree = "<group>"; };
+		C4441E93209E412400573861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4490AF620CEA7CE00C32E84 /* MarkModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MarkModel.mlmodel; path = MarkPredictor/Resources/MarkModel.mlmodel; sourceTree = SOURCE_ROOT; };
+		C44ED8052093D6B900B8A642 /* MarkPredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkPredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44ED8082093D6B900B8A642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44ED80A2093D6B900B8A642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C44ED80D2093D6B900B8A642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44ED80F2093D6BD00B8A642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44ED8122093D6BD00B8A642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C44ED8142093D6BD00B8A642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42D958D209A278D00772D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4441E8C209E412400573861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44ED8022093D6B900B8A642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD45E4CCC3BA74E56592C8 /* Pods_MarkPredictor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E31211281BA4732E9EB62FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A86B541CC11B4CBBD666EC8 /* Pods-MarkPredictor.debug.xcconfig */,
+				23896EDF489F2373B7D3B3EF /* Pods-MarkPredictor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EF0338451EFD16CE8855751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D405EE30C69728B4B8D12A /* Pods_MarkPredictor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C42D956A2097A6B000772D70 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C44ED80A2093D6B900B8A642 /* ViewController.swift */,
+				C42D95682097A29600772D70 /* CustomSlider.swift */,
+				C42D95792097D3B100772D70 /* MarkModelWrapper.swift */,
+				C42D959E209A5E9400772D70 /* UserDefaultKeys.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C42D956B2097A8B400772D70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C44ED80C2093D6B900B8A642 /* Main.storyboard */,
+				C44ED8112093D6BD00B8A642 /* LaunchScreen.storyboard */,
+				C4490AF620CEA7CE00C32E84 /* MarkModel.mlmodel */,
+				C44ED80F2093D6BD00B8A642 /* Assets.xcassets */,
+				C44ED8142093D6BD00B8A642 /* Info.plist */,
+				C42D956D2097AABE00772D70 /* Colors.swift */,
+				C44ED8082093D6B900B8A642 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C42D9591209A278E00772D70 /* MarkPredictorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42D9592209A278E00772D70 /* MarkModelTests.swift */,
+				C42D9594209A278E00772D70 /* Info.plist */,
+			);
+			path = MarkPredictorTests;
+			sourceTree = "<group>";
+		};
+		C4441E90209E412400573861 /* MarkPredictorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4441E91209E412400573861 /* MarkPredictorUITests.swift */,
+				C4441E93209E412400573861 /* Info.plist */,
+			);
+			path = MarkPredictorUITests;
+			sourceTree = "<group>";
+		};
+		C44ED7FC2093D6B900B8A642 = {
+			isa = PBXGroup;
+			children = (
+				C44ED8072093D6B900B8A642 /* MarkPredictor */,
+				C42D9591209A278E00772D70 /* MarkPredictorTests */,
+				C4441E90209E412400573861 /* MarkPredictorUITests */,
+				C44ED8062093D6B900B8A642 /* Products */,
+				4E31211281BA4732E9EB62FF /* Pods */,
+				7EF0338451EFD16CE8855751 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C44ED8062093D6B900B8A642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44ED8052093D6B900B8A642 /* MarkPredictor.app */,
+				C42D9590209A278D00772D70 /* MarkPredictorTests.xctest */,
+				C4441E8F209E412400573861 /* MarkPredictorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44ED8072093D6B900B8A642 /* MarkPredictor */ = {
+			isa = PBXGroup;
+			children = (
+				C42D956A2097A6B000772D70 /* Sources */,
+				C42D956B2097A8B400772D70 /* Resources */,
+			);
+			path = MarkPredictor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42D958F209A278D00772D70 /* MarkPredictorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42D9599209A278E00772D70 /* Build configuration list for PBXNativeTarget "MarkPredictorTests" */;
+			buildPhases = (
+				C42D958C209A278D00772D70 /* Sources */,
+				C42D958D209A278D00772D70 /* Frameworks */,
+				C42D958E209A278D00772D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42D9596209A278E00772D70 /* PBXTargetDependency */,
+			);
+			name = MarkPredictorTests;
+			productName = MarkTests;
+			productReference = C42D9590209A278D00772D70 /* MarkPredictorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4441E8E209E412400573861 /* MarkPredictorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4441E96209E412400573861 /* Build configuration list for PBXNativeTarget "MarkPredictorUITests" */;
+			buildPhases = (
+				C4441E8B209E412400573861 /* Sources */,
+				C4441E8C209E412400573861 /* Frameworks */,
+				C4441E8D209E412400573861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4441E95209E412400573861 /* PBXTargetDependency */,
+			);
+			name = MarkPredictorUITests;
+			productName = MarkPredictorUITests;
+			productReference = C4441E8F209E412400573861 /* MarkPredictorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C44ED8042093D6B900B8A642 /* MarkPredictor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44ED8172093D6BD00B8A642 /* Build configuration list for PBXNativeTarget "MarkPredictor" */;
+			buildPhases = (
+				A67C6F1ABD27F20CA8E872A8 /* [CP] Check Pods Manifest.lock */,
+				C44ED8012093D6B900B8A642 /* Sources */,
+				C44ED8022093D6B900B8A642 /* Frameworks */,
+				C44ED8032093D6B900B8A642 /* Resources */,
+				DE8BD6F1B5808A583FDC972F /* [CP] Embed Pods Frameworks */,
+				C4673BC2209BC97900841296 /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkPredictor;
+			productName = MarkPredictor;
+			productReference = C44ED8052093D6B900B8A642 /* MarkPredictor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44ED7FD2093D6B900B8A642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Elena Yanovskaya";
+				TargetAttributes = {
+					C42D958F209A278D00772D70 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C44ED8042093D6B900B8A642;
+					};
+					C4441E8E209E412400573861 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C44ED8042093D6B900B8A642;
+					};
+					C44ED8042093D6B900B8A642 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C44ED8002093D6B900B8A642 /* Build configuration list for PBXProject "MarkPredictor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44ED7FC2093D6B900B8A642;
+			productRefGroup = C44ED8062093D6B900B8A642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44ED8042093D6B900B8A642 /* MarkPredictor */,
+				C42D958F209A278D00772D70 /* MarkPredictorTests */,
+				C4441E8E209E412400573861 /* MarkPredictorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42D958E209A278D00772D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4441E8D209E412400573861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44ED8032093D6B900B8A642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44ED8132093D6BD00B8A642 /* LaunchScreen.storyboard in Resources */,
+				C44ED8102093D6BD00B8A642 /* Assets.xcassets in Resources */,
+				C44ED80E2093D6B900B8A642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A67C6F1ABD27F20CA8E872A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkPredictor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4673BC2209BC97900841296 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		DE8BD6F1B5808A583FDC972F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarkPredictor/Pods-MarkPredictor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/fluid-slider/fluid_slider.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluid_slider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarkPredictor/Pods-MarkPredictor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42D958C209A278D00772D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42D9593209A278E00772D70 /* MarkModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4441E8B209E412400573861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4441E92209E412400573861 /* MarkPredictorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44ED8012093D6B900B8A642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44ED80B2093D6B900B8A642 /* ViewController.swift in Sources */,
+				C42D95692097A29600772D70 /* CustomSlider.swift in Sources */,
+				C42D957A2097D3B100772D70 /* MarkModelWrapper.swift in Sources */,
+				C44ED8092093D6B900B8A642 /* AppDelegate.swift in Sources */,
+				C42D959F209A5E9400772D70 /* UserDefaultKeys.swift in Sources */,
+				C4490AF720CEA7CE00C32E84 /* MarkModel.mlmodel in Sources */,
+				C42D956E2097AABE00772D70 /* Colors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42D9596209A278E00772D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44ED8042093D6B900B8A642 /* MarkPredictor */;
+			targetProxy = C42D9595209A278E00772D70 /* PBXContainerItemProxy */;
+		};
+		C4441E95209E412400573861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44ED8042093D6B900B8A642 /* MarkPredictor */;
+			targetProxy = C4441E94209E412400573861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44ED80C2093D6B900B8A642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44ED80D2093D6B900B8A642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44ED8112093D6BD00B8A642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44ED8122093D6BD00B8A642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42D9597209A278E00772D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 383575UEP3;
+				INFOPLIST_FILE = MarkPredictorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MarkPredictorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkPredictor.app/MarkPredictor";
+			};
+			name = Debug;
+		};
+		C42D9598209A278E00772D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 383575UEP3;
+				INFOPLIST_FILE = MarkPredictorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MarkPredictorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkPredictor.app/MarkPredictor";
+			};
+			name = Release;
+		};
+		C4441E97209E412400573861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 383575UEP3;
+				INFOPLIST_FILE = MarkPredictorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MarkPredictorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkPredictor;
+			};
+			name = Debug;
+		};
+		C4441E98209E412400573861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 383575UEP3;
+				INFOPLIST_FILE = MarkPredictorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MarkPredictorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkPredictor;
+			};
+			name = Release;
+		};
+		C44ED8152093D6BD00B8A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C44ED8162093D6BD00B8A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44ED8182093D6BD00B8A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A86B541CC11B4CBBD666EC8 /* Pods-MarkPredictor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 383575UEP3;
+				INFOPLIST_FILE = "$(SRCROOT)/MarkPredictor/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarkPredictor;
+				PRODUCT_MODULE_NAME = MarkPredictor;
+				PRODUCT_NAME = MarkPredictor;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C44ED8192093D6BD00B8A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23896EDF489F2373B7D3B3EF /* Pods-MarkPredictor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 383575UEP3;
+				INFOPLIST_FILE = "$(SRCROOT)/MarkPredictor/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarkPredictor;
+				PRODUCT_MODULE_NAME = MarkPredictor;
+				PRODUCT_NAME = MarkPredictor;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42D9599209A278E00772D70 /* Build configuration list for PBXNativeTarget "MarkPredictorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42D9597209A278E00772D70 /* Debug */,
+				C42D9598209A278E00772D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4441E96209E412400573861 /* Build configuration list for PBXNativeTarget "MarkPredictorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4441E97209E412400573861 /* Debug */,
+				C4441E98209E412400573861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44ED8002093D6B900B8A642 /* Build configuration list for PBXProject "MarkPredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44ED8152093D6BD00B8A642 /* Debug */,
+				C44ED8162093D6BD00B8A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44ED8172093D6BD00B8A642 /* Build configuration list for PBXNativeTarget "MarkPredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44ED8182093D6BD00B8A642 /* Debug */,
+				C44ED8192093D6BD00B8A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44ED7FD2093D6B900B8A642 /* Project object */;
+}
