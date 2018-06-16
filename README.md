@@ -10,7 +10,7 @@
 `pod install`. 
 <br />
 
-Для работы с playground, должен быть установлен **Xcode 10**.
+Для работы с playground должен быть установлен **Xcode 10**.
 
 ## ⚖ Keras vs CreateML
 Сравним модели в **[Mark Predictor](https://github.com/yanovskaya/MarkPredictor)** и **MarkPredictor 2.0**.
